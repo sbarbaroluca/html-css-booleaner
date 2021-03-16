@@ -1,11 +1,68 @@
-.sfondo {
-    background-image: url("../img/pattern.png");
-    background-color: cornflowerblue;
-    background-position: center; 
-    background-size: contain;
-    height: 150px;
+body {
+    font-size: 18px;
 }
-.logo {
-    width: 150px;
-    margin-top: 90px;
+
+header {
+    height: 100px;
+    background-color: #4EA0FF;
+    background-image: url('../img/pattern.png');
+    background-size: 30%;
+}
+
+#logo {
+    width: 200px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+thead {
+    background-color: #20A9E5;
+    color: white;
+    text-align: left;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-grey {
+    color: #959595;
+}
+
+.color-blue {
+    color: #4EA0FF;
+}
+
+.small-font {
+    font-size: 14px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.odd {
+    background-color: #B1E5F2;
+}
+
+.image-container {
+    width: 200px;
+    height: 160px;
+    background-size: cover;
+}
+
+#monitor {
+    background-image: url('../img/monitor.jpg');
+    
+}
+
+#graph {
+    background-image: url('../img/graph.jpg');
+    
 }
